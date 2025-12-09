@@ -67,11 +67,11 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-         [
-             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/I_VAMPIRE_KING"),
+         #[
+             #InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/I_VAMPIRE_KING"),
              
-             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+o7_uPKxtL5hkY2Q1")
-         ],
+             #InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+o7_uPKxtL5hkY2Q1")
+         #],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ]
@@ -88,11 +88,11 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
-        [
-             InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/I_VAMPIRE_KING"),
+        #[
+             #InlineKeyboardButton(text="σᴡηєʀ", url="https://t.me/I_VAMPIRE_KING"),
              
-             InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+o7_uPKxtL5hkY2Q1")
-         ],
+             #InlineKeyboardButton(text="ѕᴜᴘᴘσʀᴛ", url="https://t.me/+o7_uPKxtL5hkY2Q1")
+        # ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ]
@@ -240,14 +240,14 @@ def stream_markup2(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-[
-            InlineKeyboardButton(
-                text="ᴏᴡɴᴇʀ", url=f"https://t.me/I_VAMPIRE_KING"
-            ),
-            InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+o7_uPKxtL5hkY2Q1"
-            ),
-        ],
+#[
+           # InlineKeyboardButton(
+            #    text="ᴏᴡɴᴇʀ", url=f"https://t.me/I_VAMPIRE_KING"
+           # ),
+           # InlineKeyboardButton(
+             #   text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/+o7_uPKxtL5hkY2Q1"
+          #  ),
+       # ],
 
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
