@@ -15,13 +15,13 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","iamakii73")
+OWNER_USERNAME = getenv("OWNER_USERNAME","lNobil")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "kuku_music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "TaraxMusicRoBot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "kuku music")
+BOT_NAME = getenv("BOT_NAME" , "tara music")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "kuku")
+ASSUSERNAME = getenv("ASSUSERNAME" , "MISSTARA00")
 # ---------------------------------------------------------
 
 
@@ -41,7 +41,7 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 CLONE_LOGGER = LOGGER_ID
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 8041311342))
+OWNER_ID = int(getenv("OWNER_ID", 8150875959))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -58,7 +58,7 @@ API_KEY = getenv("API_KEY", 'NxGBNexGenBots6ebe24') # youtube song api key
 #----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-SOURCE = getenv("SOURCE", "https://t.me/iamakii73")
+SOURCE = getenv("SOURCE", "https://t.me/LINK_KI_HAWELII")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Vivek12-0/clone",
@@ -76,9 +76,9 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamakii73")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TG_HEISTS")
-CHAT = getenv("CHAT", "https://t.me/TG_HEISTS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BotXMedia")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Ai0XvmpCgmlkYmNl")
+CHAT = getenv("CHAT", "https://t.me/+nw0erTqamNZmN2I1")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
