@@ -10,12 +10,12 @@ start_txt = """
 **Cʟᴏɴɪғʏ** - Tʜᴇ Uʟᴛɪᴍᴀᴛᴇ Tᴇʟᴇɢʀᴀᴍ Mᴜsɪᴄ Sᴏʟᴜᴛɪᴏɴ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇs.
 
 ┏━━━━━━━━━━━━━━━━━⧫
-┠ ◆ **sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ:** [Click Here](https://github.com/aditya88402/Heistsnetwork)  
-┠ ◆ **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [༐DEV](https://t.me/I_VAMPIRE_KING)
-┠ ◆ **ʀᴇʟᴇᴀsᴇᴅ ʙʏ:** [@I_VAMPIRE_KING](https://t.me/I_VAMPIRE_KING)
+┠ ◆ **𝐅ʀᴇᴇ 𝐏ʀᴏᴍᴏᴛɪᴏɴ:** [Click Here](https://t.me/LINK_KI_HAWELII)  
+┠ ◆ **𝐃ᴇᴠᴇʟᴏᴘᴇʀ:** [༐DEV](https://t.me/lNobil)
+┠ ◆ **ʀᴇʟᴇᴀsᴇᴅ ʙʏ:** [𝐁ᴏᴛ 𝐗 𝐌ᴇᴅɪᴀ](https://t.me/BotXMedia)
 ┗━━━━━━━━━━━━━━━━━⧫
 
-__Fᴏʀᴋ ɪᴛ, ᴄᴜsᴛᴏᴍɪᴢᴇ ɪᴛ, ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ʏᴏᴜʀ ᴏᴡɴ!__
+__𝐁ᴏᴛ 𝐗 𝐌ᴇᴅɪᴀ__
 """
 
 
@@ -26,12 +26,10 @@ __Fᴏʀᴋ ɪᴛ, ᴄᴜsᴛᴏᴍɪᴢᴇ ɪᴛ, ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ �
 async def start(_, msg):
     buttons = [
         [
-                InlineKeyboardButton("𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="https://t.me/+o7_uPKxtL5hkY2Q1"),
-                InlineKeyboardButton("𝗨𝗣𝗗𝗔𝗧𝗘", url="https://t.me/TG_HEIST")
+                InlineKeyboardButton("𝐃ᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/lNobil"),
+                InlineKeyboardButton("𝐁ᴏᴛ 𝐗 𝐌ᴇᴅɪᴀ", url="https://t.me/BotXMedia")
         ],
-        [ 
-          InlineKeyboardButton("𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘", url=f"https://github.com/aditya88402/Heistsnetwork")
-        ]
+       
     ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -60,7 +58,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://t.me/I_VAMPIRE_KING) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/+o7_uPKxtL5hkY2Q1)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://t.me/BotXMedia) |
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
